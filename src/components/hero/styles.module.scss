@@ -1,0 +1,84 @@
+@import '@/styles/colors.module.scss';
+
+.hero{
+  background-image: url('../../../public/bgs/bgHero.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  margin-top: -110px;
+  width: 560px;
+  h1{
+    font-size: 42px;
+    letter-spacing: -4%;
+    line-height: 51px;
+    font-weight: 700px;
+    margin-bottom: 43px;
+    span{
+      color: $lightRed;
+      white-space: nowrap
+    }
+  }
+  p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    font-weight: 400;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1000px){
+  .hero{
+    background-position: 44% -110px;
+  }
+  .content{
+    width: 470px;
+    h1{
+      font-size: 37px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 16px;
+      margin-bottom: 50px;
+      line-height: 25px;
+
+    }
+  }
+
+}
+
+@media (max-width: 510px){
+  .hero{
+    align-items: flex-start;
+    background-image: url('../../../public/bgs/bgHeroMobile2.jpg');
+    background-position: top center;
+
+  }
+  .content{
+    max-width: 470px;
+    width: 100%;
+    margin-top: 220px;
+    h1{
+      font-size: 32px;
+      margin-bottom: 14px;
+      line-height: 34px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+}
+@media (max-width: 415px){
+  .content{
+    margin-top: 160px;
+  }
+}
