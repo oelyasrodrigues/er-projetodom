@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export default function Hero() {
   return (
     <>
-      <section className={styles.hero}>
+      <section className={styles.hero} id="hero">
         <div className="container">
           <div  data-aos="fade-right" data-aos-duration="600" className={styles.content}>
             <h1 >APRENDA A COMO SE TORNAR UM VERDADEIRO <span>CHEFE DE FAMÍLIA</span></h1>

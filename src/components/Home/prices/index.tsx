@@ -35,7 +35,7 @@ export default function Prices() {
               </p>
               <p>ou 1x de R$ 997,00</p>
             </div>
-            <a href="#" className="btn">QUERO ENTRAR PARA A FAMÍLIA</a>
+            <a href="#hero" className="btn">QUERO ENTRAR PARA A FAMÍLIA</a>
           </div>
           <div className={styles.guarantee} data-aos="zoom-in">
             <img src="/icons/selo.png" alt="selo 7 dias de garantia" />
