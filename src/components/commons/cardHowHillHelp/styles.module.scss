@@ -1,0 +1,61 @@
+@import "@/styles/colors.module.scss";
+
+.card{
+  border: 2px solid $lightRed;
+  border-radius: 50px;
+  max-width: 365px;
+  width: 100%;
+  min-width: 270px;
+  height: 335px;
+  padding: 20px 24px;
+
+  .img{
+    border: 1px solid $lightRed;
+    padding: 16px 30px;
+    border-radius: 30px;
+    margin-bottom: 21px;
+    width: 108px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 400px){
+  .card{
+    height: auto;
+    padding: 16px 18px;
+    .img{
+      padding: 8px 18px;
+      margin-bottom: 10px;
+      width: 79px;
+      height: 71px;
+      
+      img{
+        width: 100%;
+      }
+    }
+    h4{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    p{
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+  }
+}

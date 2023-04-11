@@ -1,0 +1,28 @@
+@import '@/styles/colors.module.scss';
+
+.partition{
+  width: 100%;
+  margin-top: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: $lightRed;
+  padding: 10px 0;
+
+  p{
+    color: #000;
+    font-weight: 600;
+    font-size: 26px;
+    animation: moveWords 30s ease-in-out infinite;
+  }
+  
+}
+
+@keyframes moveWords {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(-1300px);
+    
+  }
+}

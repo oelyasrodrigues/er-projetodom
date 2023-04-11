@@ -1,0 +1,59 @@
+@import '@/styles/colors.module.scss';
+
+.depositions{
+  margin-top: 40px;
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+      max-width: 520px;
+      font-size: 38px;
+      text-align: center;
+      margin-bottom: 40px;
+
+      span{
+        white-space: nowrap;
+        color: $lightRed;
+      }
+    }
+
+   .slides{
+
+    .cardImg{
+      width: 320px;
+      img{
+        width: 100%;
+      }
+    }
+   } 
+  }
+  
+}
+
+@media (max-width: 510px){
+  .depositions{
+    margin-top: 40px;
+  
+    .content{
+  
+      h2{
+        max-width: 520px;
+        font-size: 26px;
+        margin-bottom: 40px;
+  
+      }
+  
+     .slides{
+  
+      .cardImg{
+        width: 280px;
+
+      }
+     } 
+    }
+    
+  }
+}

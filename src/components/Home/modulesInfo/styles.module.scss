@@ -1,0 +1,58 @@
+@import '@/styles/colors.module.scss';
+
+.modules{
+  background-image: url("/bgs/bgModules.jpg");
+  margin-top: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+      font-size: 38px;
+      margin-bottom: 40px;
+      text-align: center;
+
+      span{
+        color: $lightRed;
+        white-space: nowrap;
+      }
+    }
+    .slides{
+      img{
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .modules{
+    background-position: right center;
+    margin-top: 50px;
+    .content{
+    
+      h2{
+        max-width: 330px;
+        font-size: 26px;
+        margin-bottom: 40px;
+      
+      }
+
+      .slides{
+        .cardImg{
+          width: 260px;
+          img{
+            width: 100%;
+          }
+        }
+      }
+
+    }
+  }
+}

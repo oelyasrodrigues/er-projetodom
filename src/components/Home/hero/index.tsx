@@ -5,8 +5,8 @@ export default function Hero() {
     <>
       <section className={styles.hero}>
         <div className="container">
-          <div className={styles.content}>
-            <h1>APRENDA A COMO SE TORNAR UM VERDADEIRO <span>CHEFE DE FAMÍLIA</span></h1>
+          <div  data-aos="fade-right" data-aos-duration="600" className={styles.content}>
+            <h1 >APRENDA A COMO SE TORNAR UM VERDADEIRO <span>CHEFE DE FAMÍLIA</span></h1>
             <p>
               Descubra os segredos das ruas, aprenda a vencer seus limites e
               conquiste a vida que você sempre sonhou. Se você busca a melhor

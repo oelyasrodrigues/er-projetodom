@@ -1,0 +1,22 @@
+@import '@/styles/colors.module.scss';
+
+.footer{
+  width: 100%;
+  border-top: 2px solid $lightRed;
+  padding: 50px 0 40px 0px;
+  text-align: center;
+  margin-top: 60px;
+
+  .name{
+    font-size: 22px;
+    font-weight: 600;
+    a{
+      color: $lightRed;
+      text-decoration: none;
+    }
+  }
+  .year{
+    font-size: 18px;
+    opacity: .9;
+  }
+}

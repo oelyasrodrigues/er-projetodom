@@ -20,12 +20,15 @@ body{
 
 main{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .container{
-  margin: 140px 70px 0px 70px;
-  width: 1200px;
+  margin: 0px 120px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .btn{
@@ -42,6 +45,15 @@ main{
   color: $lightRed;
   border-color: #fff;
  }
+}
+
+::-webkit-scrollbar{
+  background-color: rgb(0, 0, 0);
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: $lightRed;
+  border-radius: 20px;
 }
 
 @media (max-width: 1000px){
@@ -72,3 +84,6 @@ main{
     font-weight: 400;;
   }
 }
+
+
+
